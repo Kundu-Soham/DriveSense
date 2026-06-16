@@ -1,0 +1,8 @@
+names:
+- pedestrian
+- ped
+- people
+nc: 3
+test: /kaggle/working/jaad-frames-dataset-10-v1-YOLO/images/test
+train: /kaggle/working/jaad-frames-dataset-10-v1-YOLO/images/train
+val: /kaggle/working/jaad-frames-dataset-10-v1-YOLO/images/val
