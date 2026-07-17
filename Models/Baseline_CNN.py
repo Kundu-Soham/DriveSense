@@ -79,9 +79,9 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = model.to(device)
 
 criterion = nn.BCEWithLogitsLoss()
-optimizer = optim.Adam(model.parameters(), lr=0.0001, weight_decay=1e-4) 
+optimizer = optim.Adam(model.parameters(), lr=0.01, weight_decay=1e-4) 
 epochs = 20  
-batch_size = 16
+batch_size = 32
 
 BASE_DIRECTORY = "." 
 
