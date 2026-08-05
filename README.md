@@ -6,6 +6,14 @@ By combining spatial feature extraction with dynamic temporal modeling and tempo
 
 ---
 
+## 📄 Technical Report
+
+For a detailed breakdown of the model architecture, baseline comparisons, quantitative evaluations, and qualitative failure-mode analyses, check out the full project report:
+
+* 📌 **[View Technical Report PDF](./DriveSense%20Full%20Report.pdf)**: Read the 5-page PDF detailing dataset split mechanics, training curves, attention weights, and edge-case evaluations.
+
+---
+
 ## 🚀 Quick Start: Google Colab
 
 > **Note:** The complete source code, dataset parsing, training pipelines, evaluation loops, and interactive visualizations are designed to run end-to-end inside **Google Colab**.
@@ -15,10 +23,10 @@ By combining spatial feature extraction with dynamic temporal modeling and tempo
 
 ---
 
-## 📁 Repository Structure
+## ⚙️ Google Drive & Data Setup
 
-```text
-.
-├── notebooks/
-│   └── Pedestrian_Crossing_Prediction.ipynb   # Main Google Colab notebook with full code & outputs
-└── README.md                                  # Project documentation and guide
+> ⚠️ **Directory Path Notice**: The notebook is configured to load raw video sequences and annotations from a specific Google Drive folder structure. 
+> 
+> If you are running the notebook on your own Google Colab instance:
+> 1. Mount your Google Drive in the first cell (`drive.mount('/content/drive')`).
+> 2. Update the `BASE_DIR` / path variables in the top configuration cell to match your local Google Drive directory structure.
