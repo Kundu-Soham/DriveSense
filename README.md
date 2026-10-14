@@ -18,7 +18,7 @@ For a detailed breakdown of the model architecture, baseline comparisons, quanti
 
 > **Note:** The complete source code, dataset parsing, training pipelines, evaluation loops, and interactive visualizations are designed to run end-to-end inside **Google Colab**.
 
-* 📌 **[Open Notebook in Google Colab](https://colab.research.google.com/drive/10teHBrmxWfdvdZtnmqPZtvkvrya_MOh6)**: Click to open and run the project interactively with GPU acceleration.
+* 📌 **[Open Notebook in Google Colab](https://colab.research.google.com/drive/10teHBrmxWfdvdZtn_mqPZtvkvryaMOh6?usp=sharing)**: Click to open and run the project interactively with GPU acceleration.
 * 📁 **Local Inspection**: You can also browse the `.ipynb` file directly inside the [`notebooks/`](./notebooks) directory of this repository.
 
 ---
